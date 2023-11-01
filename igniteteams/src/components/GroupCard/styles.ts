@@ -16,12 +16,11 @@ export const Title = styled.Text`
     font-size: ${({ theme}) => theme.FONT_SIZE.MD}px;
     color: ${({theme}) => theme.COLORS.GRAY_200};
     font-family: ${({theme}) => theme.FONT_FAMILY.REGULAR};
-    padding-left: 40px;
 `
 export const Icon = styled(UsersThree).attrs(({theme}) => ({
     size: 32,
     color: theme.COLORS.GREEN_700,
     weight: 'fill'
 }))`
-    margin-left: 20px;
+    margin: 0 20px;
 `

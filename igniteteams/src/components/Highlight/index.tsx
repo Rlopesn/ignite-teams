@@ -11,8 +11,7 @@ export function Highlight({title, subtitle}: Props) {
             <s.Title>
                 {title}
             </s.Title>
-
-
+            
             <s.Subtitle>
                 {subtitle}
             </s.Subtitle>
